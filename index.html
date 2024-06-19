@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast Picker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    
+    <section class="container">
+        <h1 class="text-center text-white"><b>Pick a Radom Cast for your Story</b></h1>
+        <hr>
+        <div class="row">
+            <!-- LEFT -->
+            <div class="col-md-6">
+                <!-- Male container -->
+                <div class="males__list">
+                    <ul class="list-unstyled" id="males-list">
+                        <li>Male-1</li>
+                        <li>Male-2</li>
+                        <li>Male-3</li>
+                        <li>Male-4</li>
+                        <li>Male-5</li>
+                        <li>Male-6</li>
+                    </ul>
+                </div>
+                <!-- Male container -->
+
+                <!-- Female Container -->
+                <div class="females__list">
+                    <ul class="list-unstyled" id="females-list">
+                        <li>Female-1</li>
+                        <li>Female-2</li>
+                        <li>Female-3</li>
+                        <li>Female-4</li>
+                        <li>Female-5</li>
+                        <li>Female-6</li>
+                    </ul>
+                </div>
+                <!-- Female Container -->
+            </div>
+            <!-- RIGHT -->
+            <div class="col-md-6">
+                <!-- Father -->
+                <h2 class="text-white">Father</h2>
+                <div class="father__list">
+                    <ul class="list-unstyled" id="father-list">
+                        <!-- Randomly picked male will appear here -->
+                    </ul>
+                </div>
+                <!-- Brother -->
+                <h2 class="text-white">Brother</h2>
+                <div class="brother__list">
+                    <ul class="list-unstyled" id="brother-list">
+                        <!-- Randomly picked male will appear here -->
+                    </ul>
+                </div>
+                <!-- Mother -->
+                <h2 class="text-white">Mother</h2>
+                <div class="mother__list">
+                    <ul class="list-unstyled" id="mother-list">
+                        <!-- Randomly picked female will appear here -->
+                    </ul>
+                </div>
+                <!-- Sister -->
+                <h2 class="text-white">Sister</h2>
+                <div class="sister__list">
+                    <ul class="list-unstyled" id="sister-list">
+                        <!-- Randomly picked female will appear here -->
+                    </ul>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+        <button id="pick-button" style="position: absolute; top: 0;" class="btn btn-success mt-3">Pick Random Cast</button>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

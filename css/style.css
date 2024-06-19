@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.males__list ul, 
+.females__list ul,
+.father__list ul,
+.brother__list ul,
+.mother__list ul,
+.sister__list ul{
+    width: fit-content;
+    padding: 0 20px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.males__list ul li, 
+.females__list ul li,
+.father__list ul li,
+.brother__list ul li,
+.mother__list ul li,
+.sister__list ul li{
+    background-color: white;
+    width: 150px;
+    padding: 0.5rem;
+    margin: 5px 0;
+    border-radius: 5px;
+}
